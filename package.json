@@ -1,0 +1,35 @@
+{
+  "name": "lint-ts-strict",
+  "version": "1.0.0",
+  "description": "tslint preconfigured with WappForge style guide",
+  "keywords": [
+    "lint",
+    "typescript"
+  ],
+  "bin": {
+    "lint-coffee-strict": "bin/lint-ts-strict.js"
+  },
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "dependencies": {
+    "tslint": "3.2.2",
+    "debug": "^2.2.0",
+    "run-mod-script": "1.0.2"
+  },
+  "devDependencies": {},
+  "author": "Daniel Bartholomae <db@wappforge.com> (http://www.wappforge.com/)",
+  "license": "MIT",
+  "directories": {
+    "example": "examples",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dbartholomae/lint-ts-strict.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dbartholomae/lint-ts-strict/issues"
+  },
+  "homepage": "https://github.com/dbartholomae/lint-ts-strict#readme"
+}
